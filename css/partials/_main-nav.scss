@@ -1,0 +1,498 @@
+.software-carousel {
+    width: 100%;
+    height: auto;
+}
+
+/* Gives a margin inbetween cards */ 
+.cards {
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+/* Makes Card Boxes Header Font-Sizes Smaller */ 
+.subtitle {
+    font-size: 1.125rem;
+    margin-top: 10px;
+}
+
+/* Makes Line visible underneath subtitles */
+.dash {
+    content: '';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+    display: block;
+    background-color: #333645; 
+}
+
+
+/* Keeps icons in the Box circles white */
+.code {
+    color: #fff;
+
+}
+
+/* Keeps Latest Line visible */ 
+.line {
+    font-size: 1.25rem;
+    content: '';
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    width: 68px;
+    height: 4px;
+    display: block;
+    background-color: #333645;
+    position: relative; 
+
+}
+
+/* Keeps Digital text on two lines to prevent box being bigger than the others */ 
+.digital-text {
+    font-size: 15px;
+
+}
+
+
+/* Makes Netmatters Logo Background Visible and Text Below it white */
+/* Keeps heading and paragraph text aligned*/ 
+.net {
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    letter-spacing: .4px;
+    background-color: #333645;
+    background-image: url('img/nmbgimg.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    color: #fff;
+    text-align: left;
+    padding: 40px 0;
+    p,
+    h2{
+        margin-bottom: 25px;
+    }
+}
+
+.subheader {
+    font-size: 2.25rem;
+}
+.paragraph{
+    font-weight: 550;
+}
+
+/* Keeps Our Culture Button background white and text black */ 
+#septenery {
+    color: #333645;
+    background-color: #fff;
+    border-color: #fff;
+    padding: 6px 15px;
+    &:hover{
+        background-color: rgb(189, 184, 184);
+    }
+
+}
+
+/* Keeps arrow beside Our Culture text*/ 
+.culture {
+    font-size: 1rem;
+    display: inline;
+    font-family: 'poppins' , sans-serif;
+}
+
+/* Targets Bar */
+.bar {
+    padding: 40px 0 1.5em;
+    margin-bottom: 3em;
+    color: #333645; 
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Places Award Cards Side by Side*/
+.awards {
+    display: flex;
+}
+
+.awards .col-4 .card .card-img-top .card-img-top {
+	transition: all .25s cubic-bezier(.215, .61, .355, 1);
+}
+
+
+/* Tabs in top right corner of the awards cards*/ 
+
+.cyber-tab {
+    font-weight: bold;
+    color: #fff;
+    background-color: #f62459;
+    position: absolute;
+    font-size: 0.73rem;
+    top: 10px;
+    right: 0;
+    padding: 0 10px;
+    line-height: 1.438rem;
+    text-transform: uppercase;
+}
+
+.cyber-tab:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.news-tab {
+    font-weight: bold; 
+    color: #fff;
+    background-color: #926fb1;
+    position: absolute;
+    font-size: 0.73rem;
+    top: 10px;
+    right: 0;
+    padding: 0 10px;
+    line-height: 1.438rem;
+    text-transform: uppercase;
+}
+
+.news-tab:hover {
+    color: #fff;
+    text-decoration: underline;
+
+}
+
+.tele-tab {
+    font-weight: bold;
+    color: #fff;
+    background-color: #d64541;
+    position: absolute;
+    font-size: 0.73rem;
+    top: 10px;
+    right: 0;
+    padding: 0 10px;
+    line-height: 1.438rem;
+    text-transform: uppercase;
+}
+
+.tele-tab:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.card-body {
+    padding: 20px;
+    
+}
+
+.card-title {
+    min-height: 3rem;
+}
+
+.card-body .card-author {
+    display: flex;
+}
+
+.card-img-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-wrapper:after {
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.3);
+    opacity: 0;
+    transition: opacity .25s; 
+}
+
+.card-img-wrapper img {
+    transition: transform .25s;
+    width: 100%;
+}
+
+.card-img-wrapper:hover img {
+    transform: scale(1.1);
+}
+
+.card-img-wrapper:hover:after {
+    opacity: 1;
+
+}
+
+.text-eight {
+    line-height: 1.375rem;
+    font-size: 0.8125rem;
+
+}
+
+.text-nine {
+    line-height: 1.375rem;
+    font-size:  0.8125rem;
+
+}
+
+.text-ten {
+    line-height: 1.375rem;
+    font-size: 0.8125rem;
+
+}
+/*Keeps Text in Awards central*/
+
+.certify  {
+    color: #f62459;
+    display: inline-block;
+    font-weight: 600;
+    // white-space: nowrap;
+}
+
+.certify:hover {
+    color: #f62459;
+}
+
+.note {
+    color: #926fb1;  
+    font-size: medium;
+    font-weight: 600;
+}
+
+.note:hover {
+    color: #926fb1;
+}
+
+.job {
+    color: #d64541;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.job:hover {
+    color: #d64541;
+}
+
+/*Makes Card Link Button Text Different Colors */ 
+
+.btn-octonary {   
+    background-color: #f62459;
+
+}
+
+.btn-nonery {
+    background-color: #926fb1;
+
+}
+
+.btn-denary {
+    background-color: #d64541;
+}
+
+.col-4 {
+    .btn-octonary {
+        font-size: 1.15rem;
+        margin-top: 15px;
+    }
+    .btn-nonery {
+        font-size: 1.15rem;
+        margin-top: 15px;
+
+    }
+
+    .btn-denary {
+        font-size: 1.15rem;
+        margin-top: 15px;
+    }
+}
+
+/*Makes Posted By Pictures Have A Circle Padding Behind Them*/
+.img {
+    border-radius: 50%;
+    padding: 10px;
+    height: 67px;
+}
+
+
+.grayscale:hover {
+    filter: none;
+}
+
+/* Keeps text boxes above sponsor icons and hidden until in a hover state */
+.coloured-box {
+    display: none;
+    position: absolute;
+}
+
+
+/* Bussey Text-box & Hover */ 
+.bussey-box {
+    top: -180px;
+}
+.bussey{
+    display: block;
+    position: relative;
+    &:hover{
+        >.coloured-box{
+            display: block;
+        }
+    }
+} 
+
+
+/* Crane Text-box & Hover */ 
+.crane-box {
+    top: -230px;
+}
+.crane{
+    display: block;
+    position: relative;
+    &:hover{
+        >.coloured-box{
+            display: block;
+        }
+    }
+} 
+
+/* Bussey Text-box & Hover */ 
+.beat-box {
+    top: -200px;
+}
+.beat {
+    display: block;
+    position: relative;
+    &:hover{
+        >.coloured-box{
+            display: block;
+        }
+    }
+} 
+
+
+/* Bussey Text-box & Hover */ 
+.northern-box {
+    top: -200px;
+}
+.northern {
+    display: block;
+    position: relative;
+    &:hover{
+        >.coloured-box{
+            display: block;
+        }
+    }
+} 
+/*Moves Busseys, Crane, Northern Driver Icons*/
+
+/* Gives space between the box tooltip and the cards above it */
+.section {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Keeps toolbox about Busseys Icon */
+.item .description .box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Makes arrow appear under tooltip box */ 
+.section.clients .list .item {
+    vertical-align: middle;
+    // padding: 0 20px;
+    position: relative;
+}
+
+/* makes arrow disappear commenting out display none will make it appear again and position absolute will make it go to far left */ 
+.section.clients .list .item .description {
+    // display: none;
+    // position: absolute;
+    bottom: 100%;
+    left: -200px;
+    right: -200px;
+}
+
+
+/* Keeps tooltip content within the box */
+.item .description .box {
+    background-color: #333645;
+    color: #fff;
+    padding: 20px;
+    font-size: 0.875rem;
+    width: 260px;
+    margin: 0 auto 50px;
+
+}
+
+/* Moves dash further down in the box */
+.section.clients .list .item .description .box h3 {
+    position: relative;
+    font-size: 1.125rem;
+    color: #fff;
+    margin: 0 0 11px;
+}
+
+/* Makes line-height, font and margin where the tooltip box is */ 
+// .section.clients .list .item .description .box p {
+//     font-size: 0.8125rem;
+//     line-height: 1.375rem;
+//     margin-bottom: 0;
+// }
+
+// .section.clients .list .item:hover .grayscale {
+//     display: none;
+// }
+
+// .section.clients .list .item .bussey {
+//     display: none;
+
+// }
+
+/* Keeps sponsor icons in a row */ 
+.sponsors {
+    padding: 50px 0 50px 0;
+    display: flex;
+}
+
+/* Keeps Beat icon spaced evenly between the rest of the icons*/ 
+.section .col-3 {
+    text-align: center;
+}
+
+/* Line within tooltip box*/ 
+.bold-dash {
+    content: '';
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+    display: block;
+    background-color: #fff;
+    margin: 10px auto;
+}
+/* Arrow Below Card Boxes */ 
+.box {
+    position: relative;
+}
+
+/* Keeps arrow dead center underneath tooltip box*/ 
+.list .item .description .box .arrow {
+    position: absolute;
+    bottom: -40px;
+    margin-left: 70px;
+}
+
+.item .description .box .arrow::after {
+    content: '';
+    margin: auto;
+    display: inline-block;
+    border-style: solid;
+    border-width: 36px 36px 0 36px;
+    border-color:#333645 transparent transparent transparent;
+}

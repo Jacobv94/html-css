@@ -1,0 +1,95 @@
+// Extra large devices (large desktops, 1260px and up)
+@media only screen and (min-width: 1260px)  {
+.container {
+    width: 1200px;
+}
+.hidden-lg {
+    display: none !important;
+}
+.col-xs-3 {
+    float: left;
+    width: 25%;
+    } 
+}
+
+// Phone Icon (max-width: 1259px) and (min-width:992px)
+
+@media (max-width: 1259px) and (min-width: 992px) {
+.hidden-md {
+    display: none !important;
+}
+}
+
+// Large Devices ( Desktops, 991px and up ) //
+@media only screen and (max-width: 991px) {
+    header 
+        .header-btns 
+            .support, .contact {
+                display: none;            
+    }
+    .main-nav { 
+        display: none;
+        }
+    // .container {
+    //     width: 970px;
+    // }
+    .col-md-6 {
+        width: 50%;
+    }
+    .mobile-container .header-phone {
+        font-size: 32px;
+        margin-left: 15px;
+    }
+    header .inner .row {
+        display: table;
+        width: 100%;
+        margin: 0;
+
+    }
+    header .inner .row > * {
+        padding: 0;
+        display: table-cell;
+        float: none;
+        vertical-align: middle;
+        width: 100%;
+
+    }
+    .wrap {
+        display: none;
+    }
+}
+// Medium Devices ( Tablets 768px and up ) //
+@media only screen and (max-width: 768px) {
+    header 
+        .header-btns 
+            .support, .contact {
+                display: none;            
+    }
+    .mobile-container 
+    .header-phone {
+        font-size: 32px;
+        margin-left: 15px;
+    }
+
+    .wrap {
+        display: none;
+
+    }
+    .main-nav {
+        display: none;
+    }
+    .boxes {
+        width: 750px;
+    }
+    // .container {
+    //     width: 750px;
+    // }
+}
+            
+// //  Small Devices ( Landscape phones, 576px) //
+@media only screen and (max-width: 576px) {
+.contact {
+    display: none;
+}
+
+}

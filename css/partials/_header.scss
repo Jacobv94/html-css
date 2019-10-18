@@ -1,0 +1,315 @@
+/* Hides Card buttons blue border */ 
+.btn {
+    border: 0;
+}
+
+header .inner {
+    padding: 20px 0;
+}
+
+header .inner .header-btns {
+    float: right;
+    padding: 7px 0;
+    display: flex; 
+}
+
+
+
+/* Keeps Support, Contact, Buttons in a row next to Netmatters Title */
+.header-btns {
+    text-align: right;
+    .header-btn {
+        display: inline;
+        margin-left: 10px;
+        vertical-align: middle;
+        a {
+        font-size: 1.125rem;
+        
+        padding: 15px;
+            i {
+            margin-right: 15px;
+            
+            }
+        }
+        button {
+            i {
+            font-size: 1.95rem;
+            display: block;
+
+            }
+        .boxes {
+            p {
+            margin-bottom: 0px;
+            font-size: 0.75rem;
+            line-height: 1;
+                }
+            }
+        } 
+    }
+}
+
+/* Keeps Buttons in Header White On Hover */
+.btn:hover {
+    color: #fff;
+}
+
+.header-phone {
+    color: #000000;
+}
+
+.header-phone:hover {
+    color: #121419;
+    text-decoration: underline;
+}
+
+/* Keeps Background support Button Blue */
+.support a  {
+    background-color: #4183d7;
+    text-transform: uppercase;
+    // margin: 10px;
+}
+
+.contact a {
+    background-color: #999aa2;
+    text-transform: uppercase;
+    // margin: 10px;
+}
+
+.menu button {
+    background-color: #000000;
+    text-transform: uppercase;
+    height: 56px;
+    line-height: 16px;
+    text-align: center;
+    // padding: 10px 10px;
+    font-size: 0.75rem;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;  
+}
+
+/* Keeps Support, Contact, Menu text white and makes the font bigger */
+.btn {
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+/* Keeps Nav Icons background dark grey and Gives Nav Buttons space between */
+.main-nav {
+    background-color: #333645;
+    // padding: 10px;
+    // justify-content: space-evenly;
+}
+
+/*Keeps nav buttons on the same line */ 
+.nav {
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+/* Hides Border */ 
+.boxbtn {
+    border: none;
+}
+
+/* Keeps nav-bar text white */ 
+ul a {
+    color: #fff;
+
+}
+/* Keeps nav-bar text white on hover */ 
+ul a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Makes list-items float out on the Nav-Bar */ 
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    text-transform: uppercase;
+
+    .container {
+        overflow: hidden;
+    }
+    .main-nav-link, 
+    small, i {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .main-nav-link {
+        small {
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+
+    .nav-items {
+        flex-grow: 1;
+        border-left: 1px solid rgba(0,0,0,0.25);  
+    }
+    .main-nav-link {
+        overflow: hidden;
+        padding: 16px;
+        &:hover + .list-items {
+            display: block;
+            ul {
+                display: flex;
+            }
+        }
+    }
+    .list-items {
+        left: 0;
+        display: none;
+        position: absolute;
+        width: 100%;
+        ul {   
+            list-style-type: none;
+            margin-bottom: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        &:hover {
+            display: block;
+            ul {
+                display: flex;
+            }
+        }
+    }
+}
+
+.web-des:hover {
+    background-color: #926fb1;
+}
+
+.it-sup:hover {
+    background-color: #4183d7;
+}
+
+.tele-services:hover {
+    background-color: #d64541;
+
+}
+
+.spoke-software:hover {
+    background-color: #67809f; 
+}
+
+.digi-marketing:hover {
+    background-color: #2ecc71;
+}
+
+.cyber-sec:hover {
+    background-color: #f62459;
+}
+
+/*Keeps icons in navbar white on hover when moving over each of the Buttons */ 
+.main-nav-link:hover .webcode {
+    color: #fff;
+}
+
+.main-nav-link:hover .monitor {
+    color: #fff;
+}
+
+.main-nav-link:hover .telephone {
+    color: #fff;
+}
+
+.main-nav-link:hover .hardware {
+    color: #fff;
+}
+
+.main-nav-link:hover .market {
+    color: #fff;
+}
+
+.main-nav-link:hover .secure {
+    color: #fff;
+
+}
+
+/* Makes all Background List-items their respective colors*/ 
+.nav-design {
+    .list-items {
+        background-color: #926fb1;
+    }
+}
+
+.nav-support {
+    .list-items {
+        background-color: #4183d7;
+    }
+}
+
+.nav-services {
+    .list-items {
+        background-color: #d64541;
+    }
+}
+
+.nav-software {
+    .list-items {
+        background-color: #67809f;
+    }
+}
+
+.nav-digital {
+    .list-items {
+        background-color: #2ecc71;
+    }
+}
+
+.nav-cyber {
+    .list-items {
+        background-color: #f62459;
+    }
+}
+
+/* Gives Space between Text where list items are*/ 
+//  .container ul {
+//     // justify-content: space-evenly; 
+// }
+
+/* Gives a dash next to each list item within the Navbar */ 
+.main-nav .container li:not(:last-child) a::after {
+    content:'-';
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* Keeps Icon-fonts correct color In Header */
+.webcode {
+    color: #926fb1;
+
+}
+
+.monitor {
+    color: #4183d7;
+
+}
+
+.telephone {
+    color: #d64541;
+}
+
+.hardware {
+    color: #67809f;
+
+}
+
+.market {
+    color: #2ecc71;
+
+}
+
+.secure {
+    color: #f62459;
+
+}

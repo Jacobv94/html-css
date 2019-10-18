@@ -1,0 +1,91 @@
+
+/* Footer Background Color */ 
+.bottom {
+    color: #fff;
+    background-color: #333645;
+    padding: 47px 0 43px;
+    
+    li {
+        list-style: none;
+        font-size: 0.900rem;
+        }
+}
+
+/* Social Media Icons */
+
+.social {
+    i {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+}
+
+.fa-facebook {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(0,0,0,0.25);
+    display: block;
+    text-align: center;
+}
+
+.fa-twitter {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(0,0,0,0.25);
+    display: block;
+    text-align: center;
+} 
+
+.fa-linkedin {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(0,0,0,0.25);
+    display: block;
+    text-align: center;
+
+}
+
+/* Social Media Icons On Hover */
+
+.fa-facebook:hover {
+    background-color: #3C5A99;
+    color: #fff;
+}
+
+.fa-twitter:hover {
+    background-color: #38A1F3;
+    color: #fff;
+
+}
+
+.fa-linkedin:hover {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+/* Keeps Link Text White */ 
+footer a,
+footer a:hover {
+    color: #fff;
+    display: block;
+}
+
+/* Keeps Link Text White */ 
+.social a {
+    margin-bottom: 30px;
+}
+
+.creditations {
+    padding: 50px 0;
+    .col-3 {
+        text-align: center;
+    }
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}

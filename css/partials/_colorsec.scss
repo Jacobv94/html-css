@@ -1,0 +1,52 @@
+/* Cards on Hover */
+$departments: ( "code-symbol":#926fb1,
+                "computer-symbol":#4183d7,
+                "telecoms-symbol": #d64541,
+                "bespoke-symbol": #67809f,
+                "digital-symbol": #2ecc71,
+                "cyber-symbol": #f62459);
+
+@each $department, $color in $departments {
+    .colorsec i.#{$department}, .colorsec a.#{$department} {
+        background: $color;
+    }
+
+    .colorsec.#{$department}:hover {
+        color: #fff;
+        background: $color;
+
+        i.#{$department}, a.#{$department}{
+            color: $color;
+            background: #fff;
+        }
+    }
+}
+
+/* Makes Dashes underneath subtitles white on hover */
+.colorsec:hover .dash {
+    background-color: #fff;
+
+}
+
+/* Makes space between dashes within the cards at the top of the webpage */
+.colorsec .dash {
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+/*Gives all the symbols within the cards margin spacing */ 
+.colorsec .code-symbol,
+.colorsec .computer-symbol,
+.colorsec .telecoms-symbol,
+.colorsec .bespoke-symbol,
+.colorsec .digital-symbol,
+.colorsec .cyber-symbol {
+    margin-top: 16px;
+}
+
+/* Gives buttons inside cards at the top of webpage */ 
+.colorsec .btn {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
